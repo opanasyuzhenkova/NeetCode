@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 class validAnagram {
-    public static boolean  isAnagram(String s, String t) {
+    public static boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) {
             return false;
         }
@@ -16,7 +16,7 @@ class validAnagram {
         }
 
         for (char c : t.toCharArray()) {
-            tMap.put(c, tMap.getOrDefault(c,0)+1);
+            tMap.put(c, tMap.getOrDefault(c, 0) + 1);
         }
 
         if (sMap.equals(tMap)) {

@@ -5,7 +5,7 @@ import java.util.Map;
 
 class twoSum {
     public static int[] twoSum(int[] nums, int target) {
-        Map <Integer, Integer> tempMap = new HashMap<>();
+        Map<Integer, Integer> tempMap = new HashMap<>();
 
         for (int i = 0; i < nums.length; i++) {
             int diff = target - nums[i];
@@ -18,7 +18,7 @@ class twoSum {
     }
 
     public static void main(String[] args) {
-        int[] testArray = {2,7,11,15};
+        int[] testArray = {2, 7, 11, 15};
         int t = 9;
         System.out.println(twoSum(testArray, t));
     }

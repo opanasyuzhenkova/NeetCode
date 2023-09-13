@@ -12,12 +12,12 @@ class containsDuplicate {
                 .collect(Collectors.toSet());
 
         if (intArray.size() < nums.length) {
-            return true;}
-            else return false;
-        }
+            return true;
+        } else return false;
+    }
 
     public static void main(String[] args) {
-        int[] nums = {1,2,3,4,5};
+        int[] nums = {1, 2, 3, 4, 5};
         boolean result = containsDuplicate.containsDups(nums);
         System.out.println(result);
     }
