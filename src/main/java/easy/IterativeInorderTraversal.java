@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Stack;
 
 public class IterativeInorderTraversal {
-    static class TreeNode {
+    public static class TreeNode {
         int val;
         TreeNode left, right;
 
